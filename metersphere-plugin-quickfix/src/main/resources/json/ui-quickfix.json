@@ -1,0 +1,59 @@
+[
+  {
+    "type": "input",
+    "field": "serverIp",
+    "title": "服务端iP",
+    "info": "服务端iP",
+    "props": {
+      "type": "text",
+      "placeholder": "quickfix 服务器ip"
+    },
+    "_fc_drag_tag": "input",
+    "hidden": false,
+    "display": true,
+    "value": "",
+    "$required": ""
+  },
+  {
+    "type": "input",
+    "field": "serverPort",
+    "title": "服务端口",
+    "info": "服务端口",
+    "props": {
+      "placeholder": "quickfix 服务器端口",
+      "type": "number"
+    },
+    "_fc_drag_tag": "input",
+    "hidden": false,
+    "display": true,
+    "value": ""
+  },
+  {
+    "type": "input",
+    "field": "requestParam",
+    "title": "请求参数",
+    "info": "创建订单输入：NewOrder，取消订单输入：cancelOrder",
+    "props": {
+      "type": "text",
+      "placeholder": "请输入订单类型"
+    },
+    "_fc_drag_tag": "input",
+    "hidden": false,
+    "display": true,
+    "value": ""
+  },
+  {
+    "type": "input",
+    "field": "fileName",
+    "title": "文件名",
+    "info": "文件名",
+    "props": {
+      "type": "text",
+      "placeholder": "请指定文件名"
+    },
+    "_fc_drag_tag": "input",
+    "hidden": false,
+    "display": true,
+    "value": ""
+  }
+]
